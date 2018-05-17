@@ -1,0 +1,12 @@
+package: github.com/tutley/rpapoc-hello
+import:
+- package: github.com/go-chi/chi
+  version: ^3.3.2
+  subpackages:
+  - middleware
+- package: github.com/go-chi/cors
+  version: ^1.0.0
+- package: github.com/jinzhu/gorm
+  version: ^1.9.1
+  subpackages:
+  - dialects/postgres
